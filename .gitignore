@@ -1,0 +1,23 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 数据不入库（体积大）
+data/
+*.mat
+*.h5
+
+# 结果图（按需保留，初期忽略）
+results/*.png
+results/*.csv
+
+# IDE
+.idea/
+.vscode/
+
+# 系统
+.DS_Store
+Thumbs.db
