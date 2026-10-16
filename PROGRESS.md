@@ -13,12 +13,15 @@
 - [x] `python check_env.py` 全部通过
 - [x] 装 Git（2.56.0）+ 配置 `user.name` / `user.email`
 - [x] 配置代理 `http://127.0.0.1:7897`（Clash Verge）→ GitHub 从 23.8s 超时变 1.7s
-- [ ] **在 GitHub 建仓库 `phm-gear-rul`（Public，不要初始化 README）**
-- [ ] `git push -u origin main` 成功（`git branch -vv` 应看到 `[origin/main]`）
+- [x] **在 GitHub 建仓库** `hupisha7/phm-gear-rul`（Public，未初始化 README）
+- [x] `git push -u origin main` 成功 → `git branch -vv` 显示 `[origin/main]`
 - [x] 本地 `git init` + 第一次 commit
+- [x] 邮箱改为 noreply：`268777793+hupisha7@users.noreply.github.com`
 - [ ] 家里电脑装好 Python + numpy/scipy/matplotlib
 - [ ] 家里电脑 `git clone` 成功并能跑通练习题
+- [ ] 把 `phm-gear-rul` 在 GitHub 主页 **Pin** 置顶
 
+> **GitHub**：https://github.com/hupisha7/phm-gear-rul
 > 详细：[plans/00-索引.md](plans/00-索引.md)
 
 ---
@@ -199,4 +202,4 @@
 |---|---|---|---|
 | 2026-10-09 | 1h | 建 phm 环境、跑通 check_env.py | PyCharm 选了 base 环境 |
 | 2026-10-09 | 0.5h | 装 Git、`git init`、第一次 commit | **GitHub 推不上去（流量被限速）** |
-| | | | |
+| 2026-10-16 | 2h | 装 Git、配代理、建仓库、首次 push 成功 | GitHub 账号认错（3jw vs hupisha7） |
